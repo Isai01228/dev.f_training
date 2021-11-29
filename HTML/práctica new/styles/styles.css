@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    background-color: yellow;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.caja div:first-child, .caja div :last-child{
+margin: 0;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar {
+background-color: #5136AD;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+text-transform: uppercase;
+}
+
+.navbar h2 a {
+    color: white;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+.navbar ul li:first-child, .navbar ul li:last-child{
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: white;
+}

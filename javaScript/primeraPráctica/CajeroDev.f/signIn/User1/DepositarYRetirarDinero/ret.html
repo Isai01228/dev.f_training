@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Retirar Dinero</title>
+</head>
+<body>
+    <h2 id="confUserT">Por favor confirme su nombre de Usuario</h2>
+        <input type="text" id="userConfI">
+        <button id="userConfB">OK</button>
+
+        <div class="retMoneyScreen">
+            <div class="acomodarBotones">
+                <button type="submit" class="saldoButton">Tu saldo : </button>
+                <button type="submit" class="retirarBotton">Cantidad a retirar : </button>
+            </div>
+    <div class="accionContainer">
+        <input type="button" class="saldoInput" id="saldoInput">
+        <input type="button" class="saldoOutput" id="saldoOutput">
+    </div>
+    <input type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
+    <div class="arrowsContainer">
+        <button class="arrowUpContainer" id="arrowUp">
+            <img src="../img/arrowUp.png" alt="image" class="arrowUp">
+        </button>
+        <button class="arrowDownContainer" id="arrowDown">
+            <img src="../img/arrowDown.png" alt="image" class="arrowDown">
+        </button>
+    </div>
+    </div>
+
+    <div class="controlsContainer">
+        <div class="numsCorregir">
+            <button class="button1">1</button>
+            <button class="button2">2</button>
+            <button class="button3">3</button>
+            <button class="button4">Corregir</button>
+        </div>
+        <div class="numsCancelar">
+            <button class="button5">5</button>
+            <button class="button6">6</button>
+            <button class="button7">7</button>
+            <button class="button8">Cancelar</button>
+        </div>
+        <div class="numsSalir">
+            <button class="button9">9</button>
+            <button class="button10">10</button>
+            <button class="button11">11</button>
+            <button class="button12">Salir</button>
+        </div>
+    </div>
+
+    <script src="./retirar.js"></script>
+</body>
+</html>

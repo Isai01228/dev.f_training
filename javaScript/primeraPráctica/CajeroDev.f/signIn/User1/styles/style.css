@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://media.gettyimages.com/videos/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-video-id1173905761?s=640x640');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.questionMachine{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.whatDo{
+    background-color: #e3a7c0be;
+    margin-top: 5%;
+    margin-left: 13%;
+    width: 75%;
+    height: 70vh;
+    padding-top: 5%;
+    border-radius: 5px;
+    border:2px solid black;
+}
+
+.howMoneyHave{
+    text-transform: capitalize;
+    background-color: #BAD5F0;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.UserImgContainer{
+    width: 30%;
+    height: 39vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.UserImgContainer, .howMoneyHave ,.transCashButton:hover, .retMoneyButton:hover {
+    background-color: rgba(128, 128, 128, 0.432);
+    transition: 0.5s;
+    border: 2px solid black;
+    color: whitesmoke;
+}
+
+.transCashButton{
+    position: absolute;
+    left: 41%;
+    bottom: 24.5%;
+    height: 42.7%;
+    width: 20%;
+    background-color:rgba(240, 255, 255, 0.938);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.transCashIcon{
+    width: 30%;
+    color:rgba(240, 255, 255, 0.938);
+}
+
+.retMoneyButton{
+    position: absolute;
+    left: 65%;
+    bottom: 24.5%;
+    width: 20%;
+    height: 42.7%;
+    background-color:rgba(240, 255, 255, 0.938);
+    border-radius: 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.haveMoneyIcon{
+    width: 30%;
+    color:rgba(240, 255, 255, 0.938);
+}
