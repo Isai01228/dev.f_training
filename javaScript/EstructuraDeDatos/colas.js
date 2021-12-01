@@ -13,15 +13,19 @@ class Cola {
         this.cola = []  
     }
 
-    enque = (dato) => this.cola.unshift(dato)
+    enque = (dato) => this.cola.push(dato)
 
-    deque = () => {return this.cola[0]}
+    deque = () => {return this.cola.shift()}
+
+    peek = () => {return this.cola[0]}
 
     size = () => {return this.cola.length}
 
     print = () => {return this.cola}
 
     isEmpty = () => {this.cola == ''? console.log('La cola no tiene elementos'): console.log('La cola ya cuenta con elementos')}
+
+    back = () => {return this.cola[this.cola.length - 1]}
 }
 
 const cola = new Cola
@@ -37,6 +41,12 @@ cola.enque('d')
 
 console.log(cola.print())
 
+// console.log(`El elemento que se eliminó es: ${cola.deque()} `)
+
+console.log(`El primer elemento de la cola es: ${cola.peek()} `)
+
 console.log(`El número de elementos en la cola es de: ${cola.size()}`);
 
 cola.isEmpty()
+
+console.log(`El último elemento de la cola es: ${cola.back()} `)
