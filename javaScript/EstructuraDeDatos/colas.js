@@ -21,16 +21,22 @@ class Cola {
 
     print = () => {return this.cola}
 
-    isEmpty = () => {this.cola == [''] ? console.log('La cola esta vacía'): console.log('La cola tiene elementos')}
+    isEmpty = () => {this.cola == ''? console.log('La cola no tiene elementos'): console.log('La cola ya cuenta con elementos')}
 }
 
 const cola = new Cola
+
+cola.isEmpty()
+
+console.log(cola.print())
 
 cola.enque('a')
 cola.enque('b')
 cola.enque('c')
 cola.enque('d')
 
-console.log(cola.print());
+console.log(cola.print())
+
 console.log(`El número de elementos en la cola es de: ${cola.size()}`);
-console.log(cola.isEmpty());
+
+cola.isEmpty()
