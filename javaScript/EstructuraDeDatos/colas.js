@@ -7,6 +7,8 @@
 //isEmpty: indica si la cola está vacía.
 //back: nos permite conocer el último elemento de la cola sin retirar el elemento de la cola.
 
+//También se le conoce como F.I.F.O (first in, first out)
+
 
 class Cola {
     constructor() {
