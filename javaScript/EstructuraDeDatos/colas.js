@@ -25,7 +25,7 @@ class Cola {
 
     print = () => {return this.cola}
 
-    isEmpty = () => {this.cola == ''? console.log('La cola no tiene elementos'): console.log('La cola ya cuenta con elementos')}
+    isEmpty = () => {this.cola.length == 0? console.log('La cola esta vacía') : console.log('La cola ya cuenta con elementos');}
 
     back = () => {return this.cola[this.cola.length - 1]}
 }
@@ -43,9 +43,9 @@ cola.enque('d')
 
 console.log(cola.print())
 
-// console.log(`El elemento que se eliminó es: ${cola.deque()} `)
+console.log(`El elemento que se eliminó es: ${cola.deque()} `)
 
-console.log(`El primer elemento de la cola es: ${cola.peek()} `)
+// console.log(`El primer elemento de la cola es: ${cola.peek()} `)
 
 console.log(`El número de elementos en la cola es de: ${cola.size()}`);
 
